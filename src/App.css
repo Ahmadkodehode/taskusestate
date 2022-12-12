@@ -1,5 +1,14 @@
+#root {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +44,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.mySpan {
+  color: Blue;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60px;
+  height: 70px;
 }
